@@ -1,13 +1,37 @@
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Oswald&family=Poppins:wght@400;500&family=Raleway:ital,wght@0,500;0,600;0,700;0,800;1,500;1,600&display=swap');
+
+
+/* common uttilities */
+body{
+    background-color: #F3F1FF;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    display:flex;
+    justify-content: center;
+}
+.container{
+    background-color: #ffffff;
+    width: 870px; 
+    padding: 30px;
+}
+.section-title{
+    color:#562EFF;
+    font-size: 24px;
+}
+
 /* Top player style*/
-.top_Player{
+.players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
-.top_Player img{
+.player img{
     width: 56px;
     height: 56px;
 }
 .player{
     display: flex;
     align-items: center;
+
 }
